@@ -22,4 +22,4 @@ chrome://extensions
 That's it!
 
 You can check if the tool works as intended through the console:
-![](screenshots/example1.png)
+![](screenshots/example_1.png)
