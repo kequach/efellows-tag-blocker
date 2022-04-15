@@ -8,7 +8,7 @@ counter = 0;
 taburl = document.location.href;
 //console.log(`Scanning the following url for named tags ${taburl}`);
 
-if (taburl.includes("community.e-fellows.net/qanda/index/list")){
+if (taburl.includes("community.e-fellows.net/qanda")){
 		for (var i=0; i < tags.length; i++) {
 				if(blocklist.includes(tags[i].textContent.toLowerCase())) {
 						console.log(`Matched tag: ${tags[i].textContent}`);
