@@ -10,7 +10,7 @@
         "js": ["contentscript.js"]
       }
     ],
-    "browser_action": {
+    "action": {
       "default_title": "Does a thing when you do a thing",
       "default_popup": "popup.html",
       "default_icon": {
