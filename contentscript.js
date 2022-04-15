@@ -12,7 +12,7 @@ if (taburl.includes("community.e-fellows.net/qanda/index/list")){
 		for (var i=0; i < tags.length; i++) {
 				if(blocklist.includes(tags[i].textContent.toLowerCase())) {
 						console.log(`Matched tag: ${tags[i].textContent}`);
-						tags[i].closest(".questionbox").remove()
+						tags[i].closest(".questionbox.menu-data-container.questionbox-type--overview").remove()
 						counter ++;
 				}
 		}
