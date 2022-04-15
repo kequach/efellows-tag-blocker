@@ -1,5 +1,8 @@
 # efellows-tag-blocker
-Note: Current version only blocks the tag "jura". You can adjust this on your own in the file _contentscript.js_ and adding the tags you wish to block to the array _blocklist_. Contributions to improve this are welcome!
+Note: Current version only blocks the tag "jura". You can adjust this on your own in the file _contentscript.js_ and adding the tags you wish to block to the array _blocklist_. Contributions to improve this are welcome! An official chrome extension is currently pending.
+
+## Local installation
+
 This is a chrome extension that allows blocking tags on the e-fellows community forum. You can install it yourself by following these steps:
 
 1. Download this repository
@@ -17,3 +20,6 @@ chrome://extensions
 ![image](https://user-images.githubusercontent.com/18238845/163572221-8a66cd97-2ee3-4141-a1df-73d814aa22d6.png)
 
 That's it!
+
+You can check if the tool works as intended through the console:
+![](screenshots/example1.png)
