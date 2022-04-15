@@ -6,7 +6,7 @@ counter = 0;
 // Deckt alles von Neuste bis Beliebteste Fragen ab
 // Meine Beiträge haben eine andere URL und das ist gut so.
 taburl = document.location.href;
-console.log(`Scanning the following url for named tags ${taburl}`);
+//console.log(`Scanning the following url for named tags ${taburl}`);
 
 if (taburl.includes("community.e-fellows.net/qanda/index/list")){
 		for (var i=0; i < tags.length; i++) {
