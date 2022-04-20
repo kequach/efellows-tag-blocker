@@ -1,5 +1,7 @@
 # efellows-tag-blocker
-Note: Current version only blocks the tag "jura". You can adjust this on your own in the file _contentscript.js_ and adding the tags you wish to block to the array _blocklist_. Contributions to improve this are welcome! An official chrome extension is currently pending.
+Note: Current version only blocks the tag "jura". You can adjust this on your own in the file _contentscript.js_ and adding the tags you wish to block to the array _blocklist_. Contributions to improve this are welcome! 
+
+An official chrome extension can be found [here](https://chrome.google.com/webstore/detail/e-fellows-tag-blocker/phpledkfijaogamgelgikggoafdmjajo?hl=en-GB&authuser=0).
 
 ## Local installation
 
